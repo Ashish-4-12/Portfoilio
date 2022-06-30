@@ -1,0 +1,99 @@
+.langright .barr{
+ margin: 3.5vw 0vw;
+
+}
+.langright .barr .infor span{
+    font-size: 1.5vw;
+    font-weight: 500;
+    opacity: 0;
+    color: white;
+    font-family:'Quicksand', sans-serif; 
+    font-weight: bolder;
+    animation: showtext 0.5s 1s linear forwards;
+}
+@keyframes showtext {
+    100%{
+        opacity: 1;
+    }
+    
+}
+.langright .barr .infor{
+    margin-bottom: 0.3vw;
+}
+.langright .barr .progressliner{
+    position: relative;
+    height: 0.9vw;
+    width: 100%;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    background-color:#f0f0f02e;
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+@keyframes animate {
+    100%{
+        transform: scaleX(1);
+    }
+}
+.barr .progressliner span{
+    height: 0.9vw;
+    width: 80%;
+    position: absolute;
+    background-color: #cb5345;;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+.progressliner.HTML  span{
+    width: 95%;
+}
+.progressliner.CSS  span{
+    width: 85%;
+}
+.progressliner.Javascipt  span{
+    width: 50%;
+}
+.bar .progressliner span::before{
+    position: absolute;
+    content: "";
+    right: 0;
+    height: 0;
+    width: 0;
+    top: -1.2vw;
+    border: 7px solid transparent;
+    border-bottom-width: 0;
+    border-right-width: 0;
+    border-top-color: #56211a ;
+    opacity: 0;
+    animation: showtext2 0.5s 1.5s linear forwards;
+}   
+@keyframes showtext2 {
+    100%{
+        opacity: 1;
+    }
+}
+.barr .progressliner span::after{
+    position: absolute;
+    right: 0;
+    top: -2.4vw;
+    color: #fff;
+    font-size: 1vw;
+    font-weight: 500;
+    background-color:#56211a;
+    font-family:'Quicksand', sans-serif;
+    padding:1px 8px;
+    border-radius: 3px;
+    opacity: 0;
+    animation: showtext2 0.5s 1.5s linear forwards;
+
+}
+.progressliner.HTML  span::after{
+    content: "95%";
+}
+.progressliner.CSS  span::after{
+    content: "85%";
+}
+.progressliner.Javascipt  span::after{
+    content: "50%";
+}
