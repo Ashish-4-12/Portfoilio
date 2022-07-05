@@ -79,6 +79,7 @@ textarea,input{
     height: 3vw;
     border-radius: 4px;
     display: flex;
+    font-size: 1.1vw;
     justify-content: center;
     align-items: center;
     margin-top: 0.2vw;
