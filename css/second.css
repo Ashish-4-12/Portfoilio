@@ -1,106 +1,141 @@
 .second {
-    height: 46vw;
-    display: flex;
-    background-color: white;
+  height: 46vw;
+  display: flex;
+  background-color: white;
 }
 
 .mypic {
-    margin-right: -23%;
-    box-shadow: 0px 0px 7vw 4px grey;
-    width: 60%;
-    box-sizing: border-box;
-    border: 0.2vw solid #33527c63;
-    height: auto;
-    transition: transform 0.7s;
+  margin-right: -23%;
+  box-shadow: 0px 0px 7vw 4px grey;
+  width: 60%;
+  box-sizing: border-box;
+  border: 0.2vw solid #33527c63;
+  height: auto;
+  transition: transform 0.7s;
 }
-.mypic:hover{
-    transform: scale(1.1);
-    box-shadow: 0px 0px 59px 4px grey;
+.mypic:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 59px 4px grey;
 }
 .secondpic {
-    width: 40%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .seconddata {
-    display: inline-block;
-    width: 60%;
-    font-family: 'Quicksand', sans-serif;
-    padding-left: 3%;
+  display: inline-block;
+  width: 60%;
+  font-family: 'Quicksand', sans-serif;
+  padding-left: 3%;
 }
 
 .sd1 {
-    font-size: 3vw;
-    position: relative;
-    top: 22%;
-    font-weight: bold;
+  font-size: 3vw;
+  position: relative;
+  top: 22%;
+  font-weight: bold;
 }
 
 .sd11 {
-    font-weight: bolder;
-    font-size: 1.9vw;
-    color: #ff5d5d;
-    position: relative;
-    top: 23%;
+  font-weight: bolder;
+  font-size: 1.9vw;
+  color: #ff5d5d;
+  position: relative;
+  top: 23%;
 }
 
+.sd12 {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  background-color: #ff5d5dc9;
+  margin-left: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 0.3vw;
+  padding-bottom: 0.36vw;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.3vw;
+  transition: transform 0.2s;
+}
+.sd12:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.sd12:active {
+  font-weight: bolder;
+  color: #ff5d5de2;
+  background-color: white;
+  border: 1px solid #ff5d5de2;
+  transform: scale(1.2);
+}
 .sd2 {
-    position: relative;
-    top: 28%;
-    font-weight: 100;
-    width: 77%;
-    font-size: 1.5vw;
+  position: relative;
+  top: 28%;
+  font-weight: 100;
+  width: 77%;
+  font-size: 1.5vw;
 }
 
 .sd3 {
-    position: relative;
-    top: 30%;
-    font-size: 1.4vw;
+  position: relative;
+  top: 30%;
+  font-size: 1.4vw;
 }
 
 .bold {
-    margin-right: 5px;
-    display: inline-block;
-    font-weight: bolder;
+  margin-right: 5px;
+  display: inline-block;
+  font-weight: bolder;
 }
 .dot {
-    height: 1vw;
-    width: 1vw;
-    display: inline-block;
-    background-color: #ff5d5d;
-    border-radius: 50%;
-}  
-.reveal{
-    position: relative;
-    transform: translateY(17vw);
-    opacity: 0;
-    transition: all 2s ease;
+  height: 1vw;
+  width: 1vw;
+  display: inline-block;
+  background-color: #ff5d5d;
+  border-radius: 50%;
 }
-.reveal.active{
-    transform: translateY(0px);
-    opacity: 1;
+.reveal {
+  position: relative;
+  transform: translateY(17vw);
+  opacity: 0;
+  transition: all 2s ease;
+}
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
 }
 
-.reveall{
-    position: relative;
-    transform: scale(0);
-    opacity: 0;
+.reveall {
+  position: relative;
+  transform: scale(0);
+  opacity: 0;
 }
-.reveall.active{
-    transform: scale(1);
-    opacity: 1;
-    transition: all 1s ease;
+.reveall.active {
+  transform: scale(1);
+  opacity: 1;
+  transition: all 1s ease;
 }
-.revealll{
-    position: relative;
-    transform: translateX(-100vw);
-    opacity: 0;
+.revealll {
+  position: relative;
+  transform: translateX(-100vw);
+  opacity: 0;
 }
-.revealll.active{
-    transform: translateX(0px);
-    opacity: 1;
-    transition: all 1s ease;
+.revealll.active {
+  transform: translateX(0px);
+  opacity: 1;
+  transition: all 1s ease;
+}
+.cpi {
+  margin-right: 0.4vw;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.cpi:hover {
+  color: #ff5d5d;
+  font-weight: bold;
 }
