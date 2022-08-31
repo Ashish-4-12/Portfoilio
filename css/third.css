@@ -1,0 +1,76 @@
+.third{
+    height: 35vw;
+}
+.education{
+    width: 20%;
+    margin: 0px 39.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vw;
+    font-size: 3vw;
+    font-weight: bolder;
+    font-family: 'Quicksand', sans-serif;
+}
+.edata{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height:30vw ;
+    background-image: url('/Images/cb.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+.btech{
+    border: 1px solid #0000008a;
+    height: 23vw;
+    border-radius: 7px;
+    box-shadow: 0px 0px 45px 9px #0000008a;;
+    margin:3vw;
+    background-color:#ffffffd4;
+    width: 24%;
+    transition: all 0.3s ;
+}
+.btech:hover{
+    transform: scale(1.06);
+    background-color:#ffffffe8;
+}
+.university{
+    margin: 2vw 9vw;
+    width: 6vw;
+}
+.course{
+    background-color: #557a98;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    font-weight: bold;
+    padding: 1px;
+    font-family: 'Quicksand', sans-serif; ;
+    align-items: center;
+}
+.name{
+    font-family: 'M PLUS 1p', sans-serif;
+    color: #de5a79f2;
+    font-size: 1.2vw;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1vw;
+}
+.marks ,.status{
+    font-family: 'M PLUS 1p', sans-serif;
+    display: flex;
+    font-size:1.2vw ;
+    margin:0.8vw 0px;
+    justify-content: center;
+    align-items: center;
+}
