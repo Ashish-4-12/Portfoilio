@@ -1,7 +1,7 @@
 .seventh {
   width: 100%;
   height: 46vw;
-  background-image: url('/Images/c2.jpg');
+  background-image: url('/Images/aaaaaa.jpg');
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -13,7 +13,7 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   width: 100%;
   height: 6vw;
-  font-size: 3vw;
+  font-size: 2.6vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,7 @@
   font-family: 'Lexend', sans-serif;
   display: flex;
   margin-top: 0.67vw;
-  font-size: 1.4vw;
+  font-size: 1.2vw;
   color: white;
   justify-content: center;
   align-items: center;
@@ -41,6 +41,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-left: 7vw;
 }
 iframe {
   opacity: 0.6;
@@ -50,9 +51,8 @@ iframe {
   height: 30vw;
 }
 .form {
-  width: 50%;
   font-family: 'Lexend', sans-serif;
-  padding: 5vw;
+  padding: 4vw 0vw 5vw 5vw;
 }
 
 .na {
@@ -61,32 +61,35 @@ iframe {
 textarea,
 input {
   font-family: 'Lexend', sans-serif;
-  background-color: rgba(112, 109, 109, 0.3);
+  background-color: rgba(255, 255, 255, 0.053);
+  backdrop-filter: blur(3px);
   border: 0px solid;
   color: white;
-  border-bottom: 0.5px solid rgba(255, 255, 255, 0.4212);
+  border: 0.5px solid rgba(255, 255, 255, 0.4212);
   outline: none;
   width: 100%;
   padding-left: 1.3vw;
   border-radius: 4px;
 }
-.btn {
+.bttn {
   color: white;
   background-color: #ff6262ad;
-  width: 12vw;
-  height: 3vw;
+  width: 10vw;
+  height: 2.6vw;
   border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 0.2vw;
+  font-size: 1vw !important;
+  z-index: 8;
 }
-.btn:hover {
+.bttn:hover {
   scale: 1.1;
   transition: all 0.2s ease-in;
   cursor: pointer;
 }
-.btn:active {
+.bttn:active {
   border: 1px solid black;
 }
 .na,
@@ -94,13 +97,27 @@ input {
 .su,
 .mess {
   width: 25.37vw;
-  font-size: 1.23vw;
+  font-size: 1vw;
 }
 input {
   height: 3vw;
   margin: 0.5vw 0vw;
-  font-size: 1.23vw;
+  font-size: 1vw;
 }
 textarea {
   margin: 0.5vw 0vw;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.78);
+}
+.contactUs {
+  position: absolute;
+  writing-mode: vertical-rl;
+  left: -1vw;
+  font-family: 'Tilt Warp', cursive;
+  font-size: 9.1vw;
+  color: #ffffff28;
+  text-shadow: -2px 1px 30px #2121214f;
+  transform: rotate(180deg);
+  user-select: none;
 }

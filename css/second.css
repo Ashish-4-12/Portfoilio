@@ -1,21 +1,26 @@
 .second {
-  height: 46vw;
+  height: 43vw;
   display: flex;
-  background-color: white;
+  background-image: url('/Images/123.jpg');
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center 41%;
 }
 
 .mypic {
-  margin-right: -23%;
-  box-shadow: 0px 0px 7vw 4px grey;
-  width: 60%;
+  margin-right: 9%;
+  box-shadow: 10px 0 24px -5px #1f1f1f;
+  width: 100%;
   box-sizing: border-box;
-  border: 0.2vw solid #33527c63;
-  height: auto;
+  height: 43vw;
   transition: transform 0.7s;
 }
 .mypic:hover {
   transform: scale(1.1);
-  box-shadow: 0px 0px 59px 4px grey;
+  box-shadow: 10px 0 34px -5px #141414;
 }
 .secondpic {
   width: 40%;
@@ -33,7 +38,7 @@
 }
 
 .sd1 {
-  font-size: 3vw;
+  font-size: 2.5vw;
   position: relative;
   top: 22%;
   font-weight: bold;
@@ -41,7 +46,7 @@
 
 .sd11 {
   font-weight: bolder;
-  font-size: 1.9vw;
+  font-size: 1.65vw;
   color: #ff5d5d;
   position: relative;
   top: 23%;
@@ -59,7 +64,7 @@
   padding-bottom: 0.36vw;
   border: none;
   border-radius: 3px;
-  font-size: 1.3vw;
+  font-size: 1.1vw;
   transition: transform 0.2s;
 }
 .sd12:hover {
@@ -75,16 +80,16 @@
 }
 .sd2 {
   position: relative;
-  top: 28%;
+  top: 25%;
   font-weight: 100;
   width: 77%;
-  font-size: 1.5vw;
+  font-size: 1.37vw;
 }
 
 .sd3 {
   position: relative;
-  top: 30%;
-  font-size: 1.4vw;
+  top: 28%;
+  font-size: 1.35vw;
 }
 
 .bold {
@@ -92,13 +97,7 @@
   display: inline-block;
   font-weight: bolder;
 }
-.dot {
-  height: 1vw;
-  width: 1vw;
-  display: inline-block;
-  background-color: #ff5d5d;
-  border-radius: 50%;
-}
+
 .reveal {
   position: relative;
   transform: translateY(17vw);
@@ -118,7 +117,7 @@
 .reveall.active {
   transform: scale(1);
   opacity: 1;
-  transition: all 1s ease;
+  transition: all 0.3s ease;
 }
 .revealll {
   position: relative;
@@ -138,4 +137,29 @@
 .cpi:hover {
   color: #ff5d5d;
   font-weight: bold;
+}
+.aboutme {
+  position: absolute;
+  writing-mode: vertical-rl;
+  right: 0vw;
+  font-family: 'Tilt Warp', cursive;
+  font-size: 10.1vw;
+  color: #ffffff28;
+  z-index: -9;
+  top: 0vw;
+  text-shadow: -2px 1px 30px #2121214f;
+  user-select: none;
+}
+
+.Ashish {
+  position: absolute;
+  writing-mode: vertical-rl;
+  left: -8.7vw;
+  font-family: 'Tilt Warp', cursive;
+  font-size: 6.1vw;
+  color: #ffffff35;
+
+  z-index: -9;
+  top: 0.6vw;
+  user-select: none;
 }

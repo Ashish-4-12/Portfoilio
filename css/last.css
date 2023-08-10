@@ -37,31 +37,36 @@
   margin-right: 0.8vw;
 }
 .llh1 {
-  font-size: 1.7vw;
+  font-family: 'Raleway';
+  font-size: 1.6vw;
   margin-bottom: 1vw;
+  color: #fd9b9b;
+  font-weight: 600;
 }
 .lld1,
 .lld2,
 .lld3 {
   margin-bottom: 0.5vw;
-  font-size: 1.1vw;
+  font-size: 1.05vw;
   margin-left: 3vw;
 }
 .llh2 {
   margin-top: 1.5vw;
-  font-size: 1.2vw;
+  font-size: 1.05vw;
 }
 .llh3 {
   margin-top: 1vw;
-  font-size: 1.1vw;
+  font-size: 1.05vw;
 }
 .lrh {
   width: 100%;
   height: 3vw;
-  font-size: 1.6vw;
+  font-size: 1.4vw;
   display: flex;
   align-items: center;
   justify-content: right;
+  color: #fd9b9b;
+  font-weight: 600;
   padding-right: 3vw;
 }
 .lri {
@@ -97,4 +102,9 @@
   position: relative;
   right: -38vw;
   opacity: 0.8;
+}
+.collegeMail {
+  font-size: 1.2vw;
+  margin-top: 0.5vw;
+  margin-left: 2.2vw;
 }
