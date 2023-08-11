@@ -45,7 +45,9 @@ function revealll() {
         }
     }
 }
+
 // -----------------------------
+
 window.addEventListener('scroll', reveal);
 function reveal() {
     var reveals = document.querySelectorAll('.spa');
