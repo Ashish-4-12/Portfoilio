@@ -12,11 +12,11 @@
 .education {
   width: 100%;
   display: flex;
-  justify-content: right;
+  justify-content: left;
   align-items: center;
-  padding-right: 7.8vw;
+  padding-left: 7.8vw;
   height: 5vw;
-  font-size: 2.5vw;
+  font-size: 2.8vw;
   font-weight: 600;
   color: white;
   font-family: 'Raleway', sans-serif;

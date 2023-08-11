@@ -1,7 +1,7 @@
 .fourth {
   width: 100%;
   height: 74vw;
-  background-image: url('/Images/sb2.jpg');
+  background-image: url('/Images/cc2.jpg');
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -16,10 +16,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 3.5vw;
-  /* font-weight: bolder; */
-  color: white;
+  color: black;
+  backdrop-filter: blur(3px);
 }
 .lask {
   color: white;
@@ -32,7 +32,7 @@
   height: 34.5vw;
 }
 .langhead {
-  color: white;
+  backdrop-filter: blur(3px);
   font-family: 'Quicksand', sans-serif;
   width: 100%;
   font-size: 2.5vw;
@@ -40,131 +40,59 @@
   display: flex;
   align-items: center;
   justify-content: right;
+  color: white;
   padding-right: 2vw;
 }
 .cursive {
-  color: black;
+  color: white;
   margin-top: 9px;
   font-size: 3vw;
   display: flex;
   justify-content: right;
   align-items: center;
   font-family: 'Ballet', cursive;
+  margin-left: 0.7vw !important;
 }
 .langbody {
-  border-top: 0.1px solid black;
-  box-shadow: inset 0px 0px 100px 0px black;
+  box-shadow: inset 0px 0px 30px 1px rgba(0, 0, 0, 0.666);
   width: 100%;
-  display: flex;
-  row-gap: 5%;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-rows: 13vw 13vw;
+  grid-template-columns: repeat(7, 1fr);
   height: 29.5vw;
-  color: black;
+  font-family: 'Quicksand', cursive;
+  font-weight: 600;
+  font-size: 1.4vw;
+  color: #00101a;
+  padding: 3vw 3vw 0vw 5vw;
 }
+.lnaguageIcons {
+  border-radius: 0.9vw;
+  padding: 1.6vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10vw;
+  height: 10vw;
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(38, 38, 38, 0.265);
+  box-shadow: rgba(6, 15, 19, 0.224) 0px 2px 4px 0px,
+    rgba(10, 22, 27, 0.313) 0px 2px 16px 0px;
 
-.langright {
-  width: 40%;
-  margin: 1.5vw;
-  height: 24vw;
+  transition: all ease 0.1s;
 }
-.langleft {
-  width: 40%;
-  margin: 1.5vw;
-  height: 24vw;
+.langName {
+  margin-top: 0.78vw;
 }
-.langleft .bar {
-  margin: 3.5vw 0vw;
-}
-.langleft .bar .info span {
-  font-size: 1.5vw;
-  font-weight: 500;
-  opacity: 0;
-  color: white;
-  font-family: 'Quicksand', sans-serif;
-  animation: showtext 0.5s 1s linear forwards;
-}
-@keyframes showtext {
-  100% {
-    opacity: 1;
-  }
-}
-.langleft .bar .info {
-  margin-bottom: 0.3vw;
-}
-.langleft .bar .progressline {
-  position: relative;
-  height: 0.9vw;
-  width: 100%;
-  border-radius: 10px;
-  transform: scaleX(0);
-  transform-origin: left;
-  background-color: #f0f0f02e;
-  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
-}
-@keyframes animate {
-  100% {
-    transform: scaleX(1);
-  }
-}
-.bar .progressline span {
-  height: 0.9vw;
-  width: 80%;
+.skillTag {
   position: absolute;
-  background-color: #cb5345;
-  border-radius: 10px;
-  transform: scaleX(0);
-  transform-origin: left;
-  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  color: #ffffff51;
+  font-size: 15.3vw;
+  font-family: 'Tilt Warp';
+  left: 0vw;
+  text-shadow: -2px 1px 30px #2121212f;
+  top: 123.3vw;
 }
-.progressline.c span {
-  width: 98%;
-}
-.progressline.java span {
-  width: 78%;
-}
-.progressline.python span {
-  width: 58%;
-}
-.bar .progressline span::before {
-  position: absolute;
-  content: '';
-  right: 0;
-  height: 0;
-  width: 0;
-  top: -1.2vw;
-  border: 7px solid transparent;
-  border-bottom-width: 0;
-  border-right-width: 0;
-  border-top-color: #56211a;
-  opacity: 0;
-  animation: showtext2 0.5s 1.5s linear forwards;
-}
-@keyframes showtext2 {
-  100% {
-    opacity: 1;
-  }
-}
-.bar .progressline span::after {
-  position: absolute;
-  right: 0;
-  top: -2.4vw;
-  color: #fff;
-  font-size: 1vw;
-  font-weight: 500;
-  font-family: 'Quicksand', sans-serif;
-  background-color: #56211a;
-  padding: 1px 8px;
-  border-radius: 3px;
-  opacity: 0;
-  animation: showtext2 0.5s 1.5s linear forwards;
-}
-.progressline.c span::after {
-  content: '98%';
-}
-.progressline.java span::after {
-  content: '78%';
-}
-.progressline.python span::after {
-  content: '58%';
+.lnaguageIcons:hover {
+  transform: scale(1.16);
 }
