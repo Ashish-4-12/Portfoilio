@@ -36,7 +36,9 @@
   height: 0.2vw;
   top: 50%;
   transform: translateY(-50%);
-  background: #cb5345;
+  background: #134e5e;
+  background: -webkit-linear-gradient(to right, #71b280, #134e5e);
+  background: linear-gradient(to right, #71b280, #134e5e);
 }
 .box {
   width: 12%;
@@ -53,6 +55,7 @@
   height: 1vw;
   border-radius: 100%;
   background: #fff;
+  border: 2px solid #598a7b;
 }
 .date p {
   text-align: center;
@@ -63,8 +66,12 @@
 
 .box .box-content {
   border-radius: 5px;
-  background-color: #ff7a6aa6;
+  background: #134e5e;
+  background: -webkit-linear-gradient(to right, #71b280, #134e5e);
+  background: linear-gradient(to right, #71b280, #134e5e);
+
   width: 18vw;
+  opacity: 0.9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,12 +96,12 @@
   border: 0.8vw solid transparent;
 }
 .box-bottom .box-content::before {
-  border-bottom-color: #ff7a6aa6;
+  border-bottom-color: #598a7b;
   top: -1.52vw;
   left: 8.5vw;
 }
 .box-top .box-content::before {
-  border-top-color: #ff7a6aa6;
+  border-top-color: #558d74;
   bottom: -1.5vw;
 }
 .box-top .box-content {

@@ -1,7 +1,7 @@
 .last {
   width: 100%;
   height: 25vw;
-  background-image: url('/Images/las.jpg');
+  /* background-image: url('/Images/las.jpg'); */
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -10,6 +10,9 @@
   background-position: bottom;
   bottom: 0;
   color: white;
+  background: #16222a;
+  background: -webkit-linear-gradient(to left, #05293b, #16222a);
+  background: linear-gradient(to left, #05293b, #16222a);
 }
 .lastmid {
   width: 100%;
@@ -67,9 +70,10 @@
   display: flex;
   align-items: center;
   justify-content: right;
-  color: #fd9b9b;
-  font-weight: 600;
+  color: white;
   padding-right: 3vw;
+  font-family: 'Raleway' !important;
+  font-weight: 600;
 }
 .lri {
   height: 3vw;

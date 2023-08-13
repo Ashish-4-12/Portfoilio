@@ -193,5 +193,6 @@
   font-family: 'Tilt Warp', cursive;
   font-size: 7.6vw;
   color: #ffffff28;
+  user-select: none;
   text-shadow: -2px 1px 30px #2121214f;
 }
