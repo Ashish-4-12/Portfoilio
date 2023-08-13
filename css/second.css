@@ -55,7 +55,7 @@
   color: white;
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
-  background-color: #ff5d5dc9;
+  background-color: #fe7777c9;
   margin-left: 1vw;
   padding-left: 2vw;
   padding-right: 2vw;
@@ -161,4 +161,8 @@
   z-index: -9;
   top: 0.6vw;
   user-select: none;
+}
+.gif {
+  position: absolute;
+  right: 0vw;
 }
