@@ -73,17 +73,3 @@ function scrollToSection(sectionId) {
         window.scrollTo({ top: topPos, behavior: 'smooth' });
     }
 }
-
-
-const navbar = document.getElementsByClassName('nav');
-let scrolled = false;
-
-window.addEventListener('scroll', () => {
-    if (window.scrollY > 0 && !scrolled) {
-        navbar.style.backdropFilter = 'blur(5px)';
-        scrolled = true;
-    } else if (window.scrollY === 0 && scrolled) {
-        navbar.style.backgroundColor = 'transparent';
-        scrolled = false;
-    }
-});
