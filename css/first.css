@@ -21,19 +21,19 @@
 @keyframes anim {
   0%,
   100% {
-    background-image: url('/Images/top1.jpg');
+    background-image: url('/Images/top1.webp');
   }
   20% {
-    background-image: url('/Images/a3.jpg');
+    background-image: url('/Images/a3.webp');
   }
   40% {
-    background-image: url('/Images/a1.jpg');
+    background-image: url('/Images/a1.webp');
   }
   60% {
-    background-image: url('/Images/succulent.jpg');
+    background-image: url('/Images/succulent.webp');
   }
   80% {
-    background-image: url('/Images/hhhd_67351ffd273ec2164a473dd30f901647.jpg');
+    background-image: url('/Images/hhhd_67351ffd273ec2164a473dd30f901647.webp');
   }
 }
 
