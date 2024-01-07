@@ -81,7 +81,7 @@
   cursor: pointer;
 }
 
-#img {
+#astroIcon {
   filter: invert(1);
   width: 4vw;
 }
@@ -194,4 +194,7 @@ ul li a:active {
 }
 .fbi1:hover {
   transform: scale(1.6);
+}
+.curPointer:hover {
+  cursor: pointer;
 }

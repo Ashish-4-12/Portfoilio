@@ -48,6 +48,9 @@
     <link rel="stylesheet" href="/css/last.css" />
     <link rel="stylesheet" href="/css/langrightani.css" />
     <link rel="stylesheet" href="/css/coursework.css" />
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+    <script type="module" src="firebaseInit.js"></script>
     <script src="js.js"></script>
     <title>My Portfolio</title>
     <style>
@@ -87,17 +90,17 @@
             </a>
             <div class="mid">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a onclick="scrollToSection('second')">About</a></li>
-                    <li><a onclick="scrollToSection('third')">Skills</a></li>
-                    <li><a onclick="scrollToSection('exp')">Experience</a></li>
-                    <li><a onclick="scrollToSection('fifth')">Interests</a></li>
-                    <li><a onclick="scrollToSection('sixth')">Projects</a></li>
-                    <li><a onclick="scrollToSection('seven')">Contact</a></li>
+                    <li><a class="curPointer" href="#">Home</a></li>
+                    <li><a class="curPointer" onclick="scrollToSection('second')">About</a></li>
+                    <li><a class="curPointer" onclick="scrollToSection('third')">Skills</a></li>
+                    <li><a class="curPointer" onclick="scrollToSection('exp')">Experience</a></li>
+                    <li><a class="curPointer" onclick="scrollToSection('fifth')">Interests</a></li>
+                    <li><a class="curPointer" onclick="scrollToSection('sixth')">Projects</a></li>
+                    <li><a class="curPointer" onclick="scrollToSection('seven')">Contact</a></li>
                 </ul>
             </div>
             <div class="right">
-                <img loading="lazy" src="/Images/as.png" id="img" width="44px" onclick="downloadFile()" />
+                <img loading="lazy" src="/Images/as.png" id="astroIcon" width="44px" />
             </div>
         </div>
         <div class="socialMedia">
@@ -154,10 +157,11 @@
 
             <div class="sd1">Ashish Kumar Gupta</div>
             <div class="sd11">B.Tech, NIT Patna' 23
-                <button class="sd12" type="submit"
-                    onclick="window.open('https://drive.google.com/file/d/1ird-1k8U9l840z92upKdYtvgjkGjVUw3/view?usp=sharing')">My
-                    Resume
-                </button>
+                <a download="AshishResume" href="MyResume.pdf">
+                    <button class="sd12" type="submit">My
+                        Resume
+                    </button>
+                </a>
             </div>
 
             <div class="sd2" style="text-align: justify;">
