@@ -57,23 +57,26 @@
   font-weight: bold;
   background-color: #fe7777c9;
   margin-left: 1vw;
-  padding-left: 2vw;
-  padding-right: 2vw;
+  padding-right: 0.5vw;
   padding-top: 0.3vw;
   padding-bottom: 0.36vw;
   border: none;
   border-radius: 3px;
   font-size: 1.1vw;
-  transition: transform 0.2s;
+  transition: transform 0.1s;
+  width: 9vw;
 }
 .sd12:hover {
   transform: scale(1.1);
   cursor: pointer;
+  color: #ff5d5de2;
+  background-color: white;
+  border: 1px solid #ff5d5de2;
 }
 .sd12:active {
   font-weight: bolder;
-  color: #ff5d5de2;
-  background-color: white;
+  color: white;
+  background-color: #ff5d5de2;
   border: 1px solid #ff5d5de2;
   transform: scale(1.2);
 }
@@ -81,14 +84,16 @@
   position: relative;
   top: 25%;
   font-weight: 100;
-  width: 77%;
-  font-size: 1.37vw;
+  width: 80%;
+  font-size: 1.19vw;
+  font-family: 'Poppins', sans-serif;
 }
 
 .sd3 {
   position: relative;
+  font-family: 'Poppins', sans-serif;
   top: 28%;
-  font-size: 1.35vw;
+  font-size: 1.13vw;
 }
 
 .bold {
